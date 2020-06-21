@@ -1,6 +1,7 @@
 # SalmonDetection
 
 In this project I created a map of aquaculture facilities in British Columbia, Canada. Starting from a starting set of nets, a model is trained by adding examples without nets. Then, new aquaculture candidates are extracted by predicting over random images and manually selecting the correct ones from the candidates with highest probability. This process was repeated 3-5 times until a total of 112 instances of aquaculture nets and 7514 images without nets were extracted. I visualized it in QGIS below. Blue dots are randomly sampled positions without nets and the red dots show the 112 instances of nets.
+
 ![Examples of the best ImageNet Policy](visuals/Result.png)
 
 
