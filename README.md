@@ -1,6 +1,6 @@
 # SalmonDetection
 
-In this project I created a map of aquaculture facilities in British Columbia, Canada. Starting from a starting set of iamges with nets present and images without nets, a classification model is trained. 
+In this project I created a map of aquaculture facilities in British Columbia, Canada. Starting from a starting set of images with nets present and images without nets, a classification model is trained. 
 
 Then, new aquaculture candidates are extracted by predicting over random images and manually selecting the correct ones from the candidates with highest probability. This process was repeated 3-5 times until a total of 112 instances of aquaculture nets and 7514 images without nets were extracted. 
 
